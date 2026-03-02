@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  height: 100vh;
+  width: 100%;
+}
+
+.grid-item {
+  background-image: url("https://gizmodo.com/app/uploads/2026/02/punch-monkey-ikea-crop-center.jpg");
+  background-size: cover;
+  background-position: center;
+}
+  
+
+.item1  { background-position: 0% 100%; }
+.item2  { background-position: 10% 90%; }
+.item3  { background-position: 20% 80%; }
+.item4  { background-position: 30% 70%; }
+.item5  { background-position: 40% 60%; }
+
+.item6  { background-position: 50% 50%; }
+.item7  { background-position: 60% 40%; }
+.item8  { background-position: 70% 30%; }
+.item9  { background-position: 80% 90%; }
+.item10 { background-position: 100% 0%; }
+
+.item11 { background-position: 0% 67%; }
+.item12 { background-position: 67% 69%; }
+.item13 { background-position: 20% 4%; }
+.item14 { background-position: 20% 3%; }
+.item15 { background-position: 10% 15%; }
+
+.item16 { background-position: 7% 6%; }
+.item17 { background-position: 5% 9%; }
+.item18 { background-position: 20% 25%; }
+.item19 { background-position: 2% 14%; }
+.item20 { background-position: 100% 100%; }
