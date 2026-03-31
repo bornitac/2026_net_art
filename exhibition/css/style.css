@@ -24,11 +24,12 @@ p {
   margin-bottom: 15px;
 }
 
+/* ✅ THIS IS THE IMPORTANT PART */
 img {
-  width: 200px;
+  width: 180px;        /* smaller */
   height: auto;
   display: block;
-  margin: 20px auto;
+  margin: 20px auto;   /* FIXED */
 }
 
 a:link,
