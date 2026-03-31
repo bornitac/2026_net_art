@@ -24,10 +24,10 @@ p {
 }
 
 img {
-  width: 100%;
-  max-width: 650px;
+  width: 60%;
+  max-width: 500px;
   display: block;
-  margin-top: 20px;
+  margin-top: 20px auto;
   margin-bottom: 10px;
 }
 
