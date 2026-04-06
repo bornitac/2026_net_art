@@ -7,7 +7,6 @@ function changeNumber() {
   number = 7;
   textElement.innerHTML = number; 
 }
-
 document.body.style.backgroundColor = "lightgreen";
-
+textElement.style.fontSize = "40px";
 button.addEventListener("click", changeNumber);
