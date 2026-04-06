@@ -1,15 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Number Changer</title>
-</head>
+let number = 6;
 
-<body>
-  
-  <p id="numberText">6!</p>
-  <button id="myButton">Click me</button>
+let button = document.querySelector("#myButton");
+let textElement = document.querySelector("#numberText");
 
-<script src="js/script.js"></script>
+function changeNumber() {
+  number = 7;
+  textElement.innerHTML = number; 
+}
 
-</body>
-</html>
+document.body.style.backgroundColor = "lightgreen";
+textElement.style.fontSize = "40px
+
+button.addEventListener("click", changeNumber);
