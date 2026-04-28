@@ -3,17 +3,10 @@ body {
   font-family: Arial, sans-serif;
   background: cornflowerblue;
   color: black;
-  display: flex;
-  justify-content: center;
   padding: 30px;
-}
-
-main {
   max-width: 700px;
-  width: 100%;
-  background: white;
-  padding: 30px;
-  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1, h2, h3 {
@@ -47,20 +40,4 @@ a {
 
 progress {
   width: 100%;
-}
-
-body > h1,
-body > h2,
-body > h3,
-body > p,
-body > img,
-body > a,
-body > button,
-body > details,
-body > input,
-body > progress,
-body > hr,
-body > br,
-body > small {
-  max-width: 700px;
 }
